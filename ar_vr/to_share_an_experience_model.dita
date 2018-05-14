@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2015, v.4002-->
+<!DOCTYPE pubsImportTask PUBLIC "-//PTC//DTD PUBS DITA Import Task//EN"
+ "pubsImportTask.dtd">
+<?Pub Inc?>
+<pubsImportTask id="pubsImportTask-1-4578C568" xml:lang="en">
+<title>To Share an Experience Model</title>
+<prolog>
+<metadata><keywords><keyword translate="no">MODULE@ar_vr,ProCmdARExperienceShare@CMD</keyword>
+<indexterm></indexterm>
+</keywords></metadata><?Pub Caret 42?>
+</prolog>
+<pubsImpTaskBody>
+<p>You can share the augmented reality experience model for your design
+with others.</p>
+<ol>
+<li><p>Click <uicontrol><image href="image/Share.png"></image> Manage
+Models</uicontrol> The Experience Portal home page launches in the
+embedded browser in <ptcProduct
+conref="conref_pn.dita#pubsTopic-1-A872B923/PTCCreo-EC6F7D2F"></ptcProduct
+>.<note><p>If you are not authenticated in the current session, the <uicontrol
+>Login</uicontrol> page will appear. Use your PTC credentials to authenticate.</p
+></note>The tabs for the Personal and all Premium Experience Services
+to which you have access are displayed.</p></li>
+<li><p>To share an Experience model published to the Personal Experience
+Service, click <image href="image\Share.png"></image> next to the
+model. A pre-generated email with a link to the experience model appears.
+Send the email to whom you want to share the models.</p><p>There are
+no restrictions on viewing the models published to the Personal Service.
+Anyone who has the link to the experience model can visualize the
+experiences published to a Personal Experience Service.</p></li>
+<li><p>To share an Experience model published to a Premium Experience
+Service, do the following:<ol>
+<li><p>Click the required tab. An authentication dialog box appears.</p
+></li>
+<li><p>Enter your PTC credentials to authenticate to the Premium Experience
+Service for your organization.</p></li>
+<li><p>Click<image href="image/Share.png"></image> to share the model
+with others. The <uicontrol>Share Experience</uicontrol> dialog box
+opens. You can use the following options:</p><ul>
+<li><p><uicontrol>Email Link</uicontrol> opens a pre-generated email
+that you can send to the viewer. </p></li>
+<li><p><uicontrol>Copy Link</uicontrol> copies the link to the experience
+model. You can send the link to the viewer in an email or a message.</p
+></li>
+</ul></li>
+</ol></p><p>Only authorized viewers can view an Experience Model published
+to the Premium Experience Service:</p><ul>
+<li><p>Click <image href="image/View.png"></image> to view the list
+of users who have view access to an experience model. </p></li>
+<li><p>Click <image href="image/Add.png"></image> to add a viewer.
+The <uicontrol>Add Viewer</uicontrol> dialog box appears. Enter the
+email ID of the user with whom you want to share the model and click <uicontrol
+>Add</uicontrol>.</p></li>
+<li><p>Click <image href="image/Delete.png"></image> to delete a user
+from the list. The deleted user will no longer be able to view the
+model.</p><p>You can delete a model published to a Premium Experience
+Service, by clicking<image href="image/Delete.png"></image> under <uicontrol
+>Delete</uicontrol> for a model. The model is removed from the list
+and is no longer visible to the viewers.</p></li>
+</ul></li>
+</ol>
+</pubsImpTaskBody>
+</pubsImportTask>

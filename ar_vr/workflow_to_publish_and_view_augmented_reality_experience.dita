@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2015, v.4002-->
+<!DOCTYPE pubsImportTask PUBLIC "-//PTC//DTD PUBS DITA Import Task//EN"
+ "pubsImportTask.dtd">
+<?Pub Inc?>
+<pubsImportTask id="WorkflowToPublishAndViewAugmentedRe-9B68ACB8"
+xml:lang="en">
+<title>Workflow to Publish and View Augmented Reality Experience</title>
+<prolog>
+<metadata><keywords><keyword>MODULE@ar_vr,ProCmdARExperienceTMPlacement@CMD</keyword>
+<indexterm></indexterm>
+</keywords></metadata>
+</prolog>
+<pubsImpTaskBody>
+<p>You must have a PTC user account to publish and share the augmented
+reality experience models.</p>
+<ol>
+<li><p>Open a part or assembly in <ptcProduct
+conref="conref_pn.dita#pubsTopic-1-A872B923/PTCCreo-EC6F7D2F"></ptcProduct
+>.</p></li>
+<li><p>On the <uicontrol>Tools</uicontrol> tab, click <uicontrol><image
+href="..\icons\spatial_target16x16.png"></image> Spatial Target</uicontrol
+>. The <uicontrol>Spatial Target</uicontrol> tab opens. Use the options
+on the tab to specify the location on which the model will be augmented
+to a horizontal surface. The spatial placement feature is added under
+Augmented Reality, under the footer in the Model Tree.<note><p>If
+your model contains ThingMark, it is automatically converted to a
+Spatial Target upon retrieval.</p></note></p></li>
+<li><p>Publish the augmented reality experience to the <ptcProduct
+conref="conref_pn.dita#pubsTopic-1-A872B923/ThingWorx-BF836144"></ptcProduct
+> Experience Service using the <uicontrol>Publish</uicontrol> dialog
+box.</p></li>
+<li><p>Click <uicontrol><image href="image/Share.png"></image> Manage
+Models</uicontrol> to share the experience model with others by email.</p
+></li>
+</ol>
+<p>You will be presented with an authentication dialog box the first
+time you publish or share the experience model in the session. Use
+your PTC credentials to authenticate. The login is retained for a
+session.</p>
+<section><title>To View the Augmented Reality Experience Models</title
+><ol>
+<li><p>	Download <ptcProduct
+conref="conref_pn.dita#pubsTopic-1-A872B923/ThingWorxView-BF836A0A"
+></ptcProduct> on your handheld device from the following:</p><ul>
+<li><p><xref
+href="https://itunes.apple.com/us/app/thingworx-view/id1076700285?mt=8"
+>App store for Apple devices</xref></p></li>
+<li><p><xref
+href="https://play.google.com/store/apps/details?id=com.ptc.vuforiaview&amp;hl=en"
+>Google Play store for Android devices</xref></p></li>
+</ul></li>
+<li><p>Click the Experience link. <ptcProduct
+conref="conref_pn.dita#pubsTopic-1-A872B923/ThingWorxView-BF836A0A"
+></ptcProduct> opens. You do not need to authenticate to view the
+augmented reality experience published to the Personal Experience
+Service. If the experience is published to a Premium service, an authentication
+dialog will appear. Provide your PTC credentials.<note><p>If you do
+not have the access to view the model, an error message will appear.
+Ask the author of the model to add you as a viewer for the model.</p
+></note><?Pub Caret -2?></p></li>
+<li><p>	Select the surface on which you want to augment the model.</p
+><p><ptcProduct
+conref="conref_pn.dita#pubsTopic-1-A872B923/ThingWorxView-BF836A0A"
+></ptcProduct> reads the data from the server and prepares the experience
+based on the configuration in <ptcProduct
+conref="conref_pn.dita#pubsTopic-1-A872B923/PTCCreo-EC6F7D2F"></ptcProduct
+>. The augmented model is anchored to the selected surface.</p><p
+>The default experience allows you to rotate, translate, and zoom
+into the model. You can bookmark an Experience.</p></li>
+</ol></section>
+</pubsImpTaskBody>
+<related-links>
+<linklist>
+<link format="dita" href="To_Set_a_Spatial_Target.dita" scope="local"
+type="pubsImportTask"><linktext>To Set a Spatial Target</linktext>
+</link>
+<link format="dita"
+href="to_publish_the_thingmark_to_the_thingworx_experience_server.dita"
+scope="local" type="pubsImportTask"><linktext>To Publish Models to
+AR Experience</linktext></link>
+<link format="dita" href="to_share_an_experience_model.dita"
+scope="local" type="pubsImportTask"><linktext>To Share an Experience
+Model</linktext></link>
+</linklist>
+</related-links>
+</pubsImportTask>

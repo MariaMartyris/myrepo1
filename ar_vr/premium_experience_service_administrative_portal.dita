@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2015, v.4002-->
+<!DOCTYPE pubsImportTask PUBLIC "-//PTC//DTD PUBS DITA Import Task//EN"
+ "pubsImportTask.dtd">
+<?Pub Inc?>
+<pubsImportTask id="PremiumExperienceServiceAdministrat-3A03A519"
+xml:lang="en">
+<title>Premium Experience Service Administrative Portal</title>
+<prolog>
+<metadata><keywords><keyword translate="no">MODULE@ar_vr,ProCmdARExperienceShare@CMD</keyword>
+<indexterm></indexterm>
+</keywords></metadata><?Pub Caret 42?>
+</prolog>
+<pubsImpTaskBody>
+<p>An administrator can perform the following operations for Premium
+Experience Services for your organization:</p>
+<ul>
+<li><p>View statistics on the number of users, models published, and
+models remaining for a Premium Service.</p></li>
+<li><p>Add and delete users, and manage access permissions for users.</p
+></li>
+<li><p>View and manage models published by all users.</p></li>
+<li><p>Share an Experience Model.</p></li>
+<li><p>Modify the viewers list for models published by all users.</p
+></li>
+</ul>
+<section><title>Experience Portal Statistics</title><p>On the <uicontrol
+>Admin Dashboard</uicontrol>, you can see the following statistics:<ul>
+<li><p>Authors – Total number of users who can publish and share the
+experience models. The user may have author or administrator permissions.</p
+></li>
+<li><p>Models Published – Total number of models published by all
+the users for the selected Premium Service.</p></li>
+<li><p>Models Remaining – Total number of models that you can publish
+to the Premium Service. This number is determined based on the license
+package that you have opted for.</p></li>
+<li><p>Views Consumed – Number of times experience models are viewed
+using <ptcProduct
+conref="conref_pn.dita#pubsTopic-1-A872B923/ThingWorxView-BF836A0A"
+></ptcProduct>. Each time a user views an experience model using <ptcProduct
+conref="conref_pn.dita#pubsTopic-1-A872B923/ThingWorxView-BF836A0A"
+></ptcProduct> the count is incremented by 1. However, if the user
+views the same experience model, multiple times in 15 minutes, the
+view consumed is counted as 1.</p></li>
+</ul></p></section>
+<section><title>To Add a User</title><ol>
+<li><p>On the <uicontrol>Admin Dashboard</uicontrol>, click <uicontrol
+><image href="image/Add.png"></image> Add User</uicontrol> to add
+a user to the selected Premium Experience Service. The <uicontrol
+>Add User</uicontrol> dialog box appears.</p></li>
+<li><p>Enter the email ID of the user.</p></li>
+<li><p>From the <uicontrol>Role</uicontrol> dropdown list, select
+one of the following roles:</p><ul>
+<li><p><uicontrol>Admin</uicontrol> – The user will be added as an
+administrator for the selected Premium Service.</p></li>
+<li><p><uicontrol>Author</uicontrol> – The user will be added as an
+author and will have rights to publish and share models on the selected
+Premium Experience Service.</p></li>
+</ul></li>
+<li><p>Click <uicontrol>Add</uicontrol>.</p></li>
+</ol><p>To delete a user, click <image href="image/Delete.png"></image
+> under <uicontrol>Delete</uicontrol> on the user row. If you delete
+a user, all the models published by the user will be assigned to you
+and can be viewed on the <uicontrol>Model Dashboard</uicontrol>.</p
+><p>You can change the access permission of an existing user by selecting <uicontrol
+>Author</uicontrol> or <uicontrol>Admin</uicontrol> from the <uicontrol
+>Role</uicontrol> dropdown list on the <uicontrol>Admin Dashboard</uicontrol
+>.</p></section>
+<section><title>To Manage Experiences Published by Other Users</title
+><p>On the <uicontrol>Admin Dashboard</uicontrol>, click <uicontrol
+>View</uicontrol> under the <uicontrol>Models</uicontrol> column to
+view the models published by a user to the Premium Experience Service.
+The <uicontrol>Model Dashboard</uicontrol> tab opens displaying a
+list of Experience models with the date of publish.</p></section>
+<section><title>To Manage Viewers for an Experience Model</title><p
+>On the <uicontrol>Model Dashboard</uicontrol>, you can do the following:<ul>
+<li><p>Click <image href="image/View.png"></image> to view the list
+of users who have view access to the model.</p></li>
+<li><p>Click <image href="image/Add.png"></image> to add a viewer.
+The <uicontrol>Add Viewer</uicontrol> dialog box appears. Enter the
+email ID of the user with whom you want to share the model and click <uicontrol
+>Add</uicontrol>.</p></li>
+<li><p>Click <image href="image/Delete.png"></image> to delete a user
+from the list. The deleted user will no longer be able to view the
+model.</p></li>
+<li><p>Click <image href="image/Share.png"></image> to share the model
+with others.</p></li>
+</ul></p></section>
+</pubsImpTaskBody>
+</pubsImportTask>

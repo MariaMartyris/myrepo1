@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2015, v.4002-->
+<!DOCTYPE pubsTopic PUBLIC "-//PTC//DTD PUBS DITA Topic//EN"
+ "
+ ">
+<?Pub Inc?>
+<pubsTopic id="AboutAugmentedRealityExperienceForC-9B685391"
+xml:lang="en">
+<title>About Augmented Reality Experience for CAD Design</title>
+<prolog>
+<metadata><keywords><keyword></keyword>
+<indexterm></indexterm>
+</keywords></metadata>
+</prolog>
+<pubsBody>
+<p>You can quickly add an augmented reality (AR) experience for your
+design from <ptcProduct
+conref="conref_pn.dita#pubsTopic-1-A872B923/PTCCreo-EC6F7D2F"></ptcProduct
+> and visualize it through <ptcProduct
+conref="conref_pn.dita#pubsTopic-1-A872B923/ThingWorxView-BF836A0A"
+></ptcProduct>. On the <uicontrol>Tools</uicontrol> tab, use the options
+in the <uicontrol>Augmented Reality</uicontrol> group to define a
+Spatial Target on which you want to augment your model and publish
+it to a hosted <ptcProduct
+conref="conref_pn.dita#pubsTopic-1-A872B923/ThingWorx-BF836144"></ptcProduct
+> Experience Server.</p>
+<p>You can publish the experiences of your design to the Personal
+and Premium Experience Services, visualize them directly from <ptcProduct
+conref="conref_pn.dita#pubsTopic-1-A872B923/ThingWorxView-BF836A0A"
+></ptcProduct>, or share them with your colleagues.</p>
+<p>You can publish up to five experience models of your design using
+the Personal account. Publishing additional experience models will
+delete the oldest experience model. An experience model will be automatically
+deleted from the <ptcProduct
+conref="conref_pn.dita#pubsTopic-1-A872B923/ThingWorx-BF836144"></ptcProduct
+> Experience Service after six months of publishing. There are no
+restrictions on viewing models published to the Personal Service.
+Anyone who has the link to the experience model can visualize the
+experiences published to a Personal Experience Service.</p><?Pub Caret 462?>
+<p>You require a Premium account to publish experiences to a Premium
+Experience Server for your organization. Publishing experiences to
+a Premium Experience Server provides better control of publishing,
+sharing, and viewing experiences. Administrators can add or remove
+users, manage permissions, and manage experiences published to a Premium
+Experience Service. One must be added as a viewer for an experience
+model to be able to view the Experience</p>
+</pubsBody>
+</pubsTopic>

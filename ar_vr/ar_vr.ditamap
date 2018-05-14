@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2015, v.4002-->
+<!DOCTYPE pubsBookmap PUBLIC "-//PTC//DTD PUBS DITA BookMap//EN"
+ "pubsBookmap.dtd">
+<?Pub UDT instructions _comment FontColor="red"?>
+<?Pub UDT template _font?>
+<?Pub Inc?>
+<pubsBookmap xml:lang="en">
+<chapter locktitle="yes" navtitle="Augmented Reality">
+<topicref format="dita" href="about_ar_experience_for_cad_design.dita"
+navtitle="About Augmented Reality Experience for CAD Design"
+scope="local" type="pubsTopic"></topicref>
+<topicref format="dita"
+href="workflow_to_publish_and_view_augmented_reality_experience.dita"
+navtitle="Workflow to Publish and View Augmented Reality Experience"
+scope="local" type="pubsImportTask"></topicref>
+<topicref format="dita" href="To_Set_a_Spatial_Target.dita"
+navtitle="To Set a Spatial Target" scope="local" type="pubsImportTask">
+</topicref>
+<topicref format="dita"
+href="to_publish_the_thingmark_to_the_thingworx_experience_server.dita"
+navtitle="To Publish Models to AR Experience" scope="local"
+type="pubsImportTask"></topicref>
+<topicref format="dita" href="to_share_an_experience_model.dita"
+navtitle="To Share an Experience Model" scope="local"
+type="pubsImportTask"></topicref>
+<topicref format="dita"
+href="premium_experience_service_administrative_portal.dita"
+navtitle="Premium Experience Service Administrative Portal"
+scope="local" type="pubsImportTask"></topicref><?Pub Caret -1?>
+</chapter>
+</pubsBookmap>

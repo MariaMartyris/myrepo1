@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2016, v.4002-->
+<!DOCTYPE pubsImportTask PUBLIC "-//PTC//DTD PUBS DITA Import Task//EN"
+ "pubsImportTask.dtd">
+<?Pub Inc?>
+<pubsImportTask id="ToSetASpatialTarget-1A9C966C" xml:lang="en">
+<title>To Set a Spatial Target</title><?Pub Caret -3?>
+<prolog>
+<metadata><keywords><keyword>MODULE@ar_vr,ProCmdARExperienceTMPlacement@CMD,tmcomp_dash@DASH</keyword>
+</keywords></metadata>
+</prolog>
+<pubsImpTaskBody>
+<p>You can set a spatial target in your model for an augmented CAD
+object. The spatial target defines the position of the augmented CAD
+object when you publish the model and use an augmented reality viewing
+device.</p>
+<ol>
+<li><p>In an open model, click <menucascade><uicontrol>Tools</uicontrol>
+<uicontrol><image href="..\icons\spatial_target16X16.png"></image
+> Spatial Target</uicontrol></menucascade>. The <uicontrol>Spatial
+Target</uicontrol> tab opens.</p></li>
+<li><p>Click the arrow to use one of the following options to place
+the Spatial Target.</p><ul>
+<li><p><xref format="dita" href="#./StandardPlane-1AA96B06"
+scope="local" type="section"><image
+href="..\icons\spatial_target_standard_plane.png"></image> <uicontrol
+>Standard Plane</uicontrol></xref> (default)—Places the Spatial Target
+on one of the 6 default standard environment planes.</p></li>
+<li><p><image href="..\icons\spatial_target_custom_plane.png"></image
+> <xref format="dita" href="#./CustomPlane-1AA96DEE" scope="local"
+type="section"><uicontrol>Custom Plane</uicontrol></xref>—Places the
+Spatial Target on any planar reference such as a surface, plane, or
+quilt.</p></li>
+<li><p><image href="..\icons\spatial_target_advanced.png" scope="local">
+</image> <xref format="dita" href="#./Advanced-1AA970E8" scope="local"
+type="section"><uicontrol>Advanced</uicontrol></xref>—Places the Spatial
+Target using any type of constraints.</p></li>
+</ul></li>
+<li><p>To hide or show the dragger, click <image
+href="..\icons\3d_dragger.png"></image>. You can use the dragger to
+translate the Spatial Target.</p></li>
+<li><p>Click <image href="..\icons\cl_ok.png"></image>. The spatial
+placement feature is added to the Augmented Reality folder in the
+Model Tree Footer folder.</p></li>
+</ol>
+<section id="StandardPlane-1AA96B06"><title>Standard Plane</title
+><ol>
+<li><p>To change the default plane <uicontrol><image
+href="..\icons\namedview_bottom.png"></image> Bottom</uicontrol>,
+choose a different plane from the list.</p></li>
+<li><p>To change the distance from the model, use one of the following
+methods:</p><ul>
+<li><p>Type a new distance in the <uicontrol>Distance</uicontrol> box.</p
+></li>
+<li><p>Use the dragger in the Graphics Window.</p></li>
+<li><p>Double-click the number in the Graphics Window, type a number
+in the box, and press ENTER.</p></li>
+</ul></li>
+</ol></section>
+<section id="CustomPlane-1AA96DEE"><title>Custom Plane</title><ol>
+<li><p>Click <uicontrol><image
+href="..\icons\spatial_target_custom_plane.png"></image> Custom Plane</uicontrol
+>.</p></li>
+<li><p>Select a planar reference such as a a surface, plane, or quilt.</p
+></li>
+<li><p>To select side references, drag the green handles or click <uicontrol
+>Placement</uicontrol> and follow the steps below. Valid references
+are linear edges coplanar to the primary placement surface or datum
+planes and planar surfaces perpendicular to it.</p><ol>
+<li><p>Click the <uicontrol>Side ref1</uicontrol> collector and select
+a side reference on the model. To offset the Spacial Target  from
+the selected side, type a number in the box and press ENTER.</p></li>
+<li><p>Click the <uicontrol>Side ref2</uicontrol> collector and select
+a second side reference on the model. To offset the Spacial Target
+ from the selected side, type a number in the box and press ENTER.</p
+></li>
+</ol></li>
+</ol></section>
+<section id="Advanced-1AA970E8"><title>Advanced</title><p>Use this
+option for advanced placement options.</p><ol>
+<li><p>Click <uicontrol><image
+href="..\icons\spatial_target_advanced.png" scope="local"></image
+> Advanced</uicontrol>.</p></li>
+<li><p>To place the Spatial Target using an interface, leave the default <image
+href="..\icons\auto_placement.png"></image> selected. You can use <uicontrol
+>Interface To Geom</uicontrol> or <uicontrol>Interface To Interface</uicontrol
+> placement.</p></li>
+<li><p>To place the Spatial Target using available constraints, click <image
+href="..\icons\manual_placement.png"></image>.</p></li>
+<li><p>Select constraint references. For more placement options, open
+the <uicontrol>Placement</uicontrol> tab.</p></li>
+<li><p>Once a constraint set has been defined, a new constraint is
+automatically activated, until the Spatial Target is fully constrained.</p
+></li>
+</ol><note><p>For more information on using placement constraints
+and interface placement, search the Assembly Design area of the Help
+Center.</p></note></section>
+</pubsImpTaskBody>
+<related-links>
+<linklist>
+<link format="dita" href="about_ar_experience_for_cad_design.dita"
+scope="local" type="pubsTopic"><linktext><?Pub _previewtext
+text="About Augmented Reality Experience for CAD Design"?></linktext>
+</link>
+</linklist>
+</related-links>
+</pubsImportTask>

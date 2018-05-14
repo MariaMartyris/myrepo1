@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2015, v.4002-->
+<!DOCTYPE pubsImportTask PUBLIC "-//PTC//DTD PUBS DITA Import Task//EN"
+ "pubsImportTask.dtd">
+<?Pub Inc?>
+<pubsImportTask id="ToPublishTheThingMarkToTheThingWorx-9B694E85"
+xml:lang="en">
+<title>To Publish Models to AR Experience</title>
+<prolog>
+<metadata><keywords><keyword>MODULE@ar_vr,ProCmdARExperiencePublish@CMD,ARExpPublishDlg@DLG</keyword>
+<indexterm></indexterm>
+</keywords></metadata><?Pub Caret 67?>
+</prolog>
+<pubsImpTaskBody>
+<p>You must be logged in as a PTC customer to publish and share the
+augmented reality experience. Enter your PTC credentials for authentication.</p>
+<ol>
+<li><p>Click <menucascade><uicontrol>Tools</uicontrol><uicontrol><image
+href="..\icons\publish_to_cloud16x16.png"></image> Publish Model</uicontrol>
+</menucascade>. The <uicontrol>Publish Experience Model</uicontrol
+> dialog box opens.<note><p>If you are not authenticated to the <ptcProduct
+conref="conref_pn.dita#pubsTopic-1-A872B923/ThingWorx-BF836144"></ptcProduct
+> Experience Service, the authentication dialog box will open. Enter
+your PTC credentials to authenticate.</p></note></p></li>
+<li><p>Provide a unique name for the experience model in <uicontrol
+>Model Name</uicontrol>.</p><note><p>If you do not specify a unique
+name, the previously published experience model will be overwritten,
+for the selected experience service.</p></note></li>
+<li><p>Select a value from the <uicontrol>Viewable quality</uicontrol
+> dropdown list to set the geometry publishing quality level.</p></li>
+<li><p>From the <uicontrol>Publish To</uicontrol> dropdown list, select
+the experience service to which you want to publish the experience
+model.</p><p>Selecting <uicontrol>Personal</uicontrol> publishes the
+experience model to the Personal Experience Service. You can publish
+up to five experience models of your design using the Personal account.
+Publishing additional experience models will delete the oldest experience
+model. You cannot delete models. An experience model will be automatically
+deleted from the <ptcProduct
+conref="conref_pn.dita#pubsTopic-1-A872B923/ThingWorx-BF836144"></ptcProduct
+> Experience Service after six months of publishing. There are no
+restrictions on viewing the models published to the Personal Experience
+Service. Anyone with a valid link can view the model.<note><p>If you
+have not subscribed to Premium Experience Service, the dropdown list
+is unavailable. You can publish the experience models only to the
+Personal Experience Service.</p></note></p></li>
+<li><p>Select a spatial target from the Model Tree or the graphics
+window. The name of the selected feature is automatically populated
+in the <uicontrol>Target</uicontrol> box.</p></li>
+<li><p>Click <uicontrol>OK</uicontrol></p><p>If you are publishing
+to a Premium Experience Service for the first time in the current
+session, an authentication dialog box will appear. Enter your PTC
+credentials and click <uicontrol>OK</uicontrol> in the authentication
+dialog box.</p></li>
+</ol>
+</pubsImpTaskBody>
+<related-links>
+<linklist>
+<link format="dita"
+href="workflow_to_publish_and_view_augmented_reality_experience.dita"
+scope="local" type="pubsImportTask"><linktext>Workflow to Publish
+and View Augmented Reality Experience</linktext></link>
+<link format="dita" href="To_Set_a_Spatial_Target.dita" scope="local"
+type="pubsImportTask"><linktext>To Set a Spatial Target</linktext>
+</link>
+</linklist>
+</related-links>
+</pubsImportTask>
